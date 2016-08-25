@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # usage:
-# from minilog import info, success, warning, error
+# from minilog import info, success, warn, error
 # print(warn("You cannot fight here. This is the war room."))
 
 def info(s):
@@ -11,7 +11,7 @@ def info(s):
 def success(s):
     return "\033[32m[+] %s\033[0m" % s
 
-def warning(s):
+def warn(s):
     return "\033[33m[-] %s\033[0m" % s
 
 def error(s):
