@@ -1,0 +1,6 @@
+# OS temporary files
+*~
+.DS_Store
+
+# compiled and bytecode files
+*.pyc
